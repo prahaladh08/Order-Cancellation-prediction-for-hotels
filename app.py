@@ -7,7 +7,7 @@ import pickle
 
 
 # Load the pre-trained model
-model = pickle.load(open(r"C:\Users\sandeep\OneDrive\Desktop\Order-Cancellation-Prediction-Model-master\internship\order_cancellation.pkl", 'rb'))
+model = pickle.load(open("order_cancellation.pkl", 'rb'))
 
 
 # Define the Streamlit app
